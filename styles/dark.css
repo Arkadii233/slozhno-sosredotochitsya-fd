@@ -10,46 +10,47 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-image:  url("../images/cover-image-dark.png");
-  --color-title:#DB00FF;
-  --accent-color: var(--real-red);
-  --button-color: var(--real-red);
-  --header-text-bg-color: var(--real-red);
-  --header_text-color: var(--approximately-black);
+  --title-color:#DB00FF;
+  --accent-color: var(--color-primary-black);
+  --button-color: var(--color-primary-black);
+  --header-text-bg-color: var(--color-primary-black--real-red);
+  --header-text-color: var(--color-text-black);
   --border-color-opacity: #FF007066;
-  --button-color: var(--real-red);
-  --rec-color: var(--real-red);
-  --deco-color: var(--real-red);
-  --question-bg-color: var(--approximately-black);
-  --question-color: var(--real-red);
-  --answer-title-bg-color: var(--real-red);
-  --answer-title-color: var(--approximately-black);
-  --answer-text-bg-color: var(--approximately-black);
+  --button-color: var(--color-primary-black);
+  --rec-color: var(--color-primary-black);
+  --deco-color: var(--color-primary-black);
+  --question-bg-color: var(--color-text-black);
+  --question-color: var(--color-primary-black);
+  --answer-title-bg-color: var(--color-primary-black);
+  --answer-title-color: var(--color-text-black);
+  --answer-text-bg-color: var(--color-text-black);
   --answer-text-color: #f1b2ce;
-  --advice-title-bg-color: var(--real-red);
-  --advice-title-color: var(--approximately-black);
+  --advice-title-bg-color: var(--color-primary-black);
+  --advice-title-color: var(--color-text-black);
+  --page-bg-color: var(--color-text-black);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --page-bg-color: var(--approximately-black);
-    --accent-color: var(--real-red);
+    --page-bg-color: var(--color-text-black);
+    --accent-color: var(--color-primary-black);
     --title-color:  #db00ff;
-    --header-text-bg-color: var(--real-red);
-    --header-text-color: var(--approximately-black);
-    --question-bg-color: var(--approximately-black);
-    --question-color: var(--real-red);
-    --answer-title-bg-color: var(--real-red);
-    --answer-title-color: var(--approximately-black);
-    --answer-text-bg-color: var(--approximately-black);
+    --header-text-bg-color: var(--color-primary-black);
+    --header-text-color: var(--color-text-black);
+    --question-bg-color: var(--color-text-black);
+    --question-color: var(--color-primary-black);
+    --answer-title-bg-color: var(--color-primary-black);
+    --answer-title-color: var(--color-text-black);
+    --answer-text-bg-color: var(--color-text-black);
     --answer-text-color: #f1b2ce;
-    --advice-title-bg-color: var(--real-red);
-    --advice-title-color: var(--approximately-black);
-    --button-color: var(--real-red);
-    --rec-color: var(--real-red);
+    --advice-title-bg-color: var(--color-primary-black--real-red);
+    --advice-title-color: var(--color-text-black);
+    --button-color: var(--color-primary-black;)
+    --rec-color: var(--color-primary-black);
     --border-color-opacity: #FF007066;
     --border-color-opacity: #FF007066;
     --background-image:  url("../images/cover-image-dark.png");
-    --deco-color: var(--real-red);
+    --deco-color: var(--color-primary-black);
   }
 
 rec_empty::before {
