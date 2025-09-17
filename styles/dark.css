@@ -13,7 +13,7 @@
   --title-color:#DB00FF;
   --accent-color: var(--color-primary-black);
   --button-color: var(--color-primary-black);
-  --header-text-bg-color: var(--color-primary-black--real-red);
+  --header-text-bg-color: var(--color-primary-black);
   --header-text-color: var(--color-text-black);
   --border-color-opacity: #FF007066;
   --button-color: var(--color-primary-black);
@@ -43,9 +43,9 @@
     --answer-title-color: var(--color-text-black);
     --answer-text-bg-color: var(--color-text-black);
     --answer-text-color: #f1b2ce;
-    --advice-title-bg-color: var(--color-primary-black--real-red);
+    --advice-title-bg-color: var(--color-primary-black);
     --advice-title-color: var(--color-text-black);
-    --button-color: var(--color-primary-black;)
+    --button-color: var(--color-primary-black);
     --rec-color: var(--color-primary-black);
     --border-color-opacity: #FF007066;
     --border-color-opacity: #FF007066;
@@ -53,7 +53,7 @@
     --deco-color: var(--color-primary-black);
   }
 
-rec_empty::before {
+.rec_empty::before {
   display: inline-block;
 }
 
